@@ -1,0 +1,261 @@
+what is dbcontext
+what is lasyz or eager laoding 
+what is cascading type in ef
+how to achieve many to manny relation in ef
+model binder in  mvc
+write code for interface and abstract class with example
+whats new in mvc5
+can we add controller in asp.net proect if yes how?
+why we use jsonbehavirou.get in mvc 
+   hint: 
+how can we implent attribute routing what are the configuration settings.
+
+What is asychronous Controller and where it used ?
+How maintain multiple submit buttin in mvc without using jquery? 
+How how anti forgery Key Work?  
+statci class have default constructor(Implicit)?
+ i want call a method without  creating the class object, without using delagte and class is not static How to call the mtrod of the class 
+
+ if  we are writting paramaterise  constructor in class  in this condition compiler will give default constructor. 
+
+  task vs thread
+ logic solving capability.
+ 
+ 
+ 
+ 
+ 
+ 
+ -----------------
+ Inheritance, Abstraction, Encapsulation, Virtual, Interface vs Abstract, Explicit Implementation, Parent / Child, Overriding.
+Generics, Exception handling, Serialization, GC, Collection vs Array, Dictionary vs List, Enumerable, Late binding / Early binding, Threads, Memory management.
+Reference/Value, Constant/Static, Read only, String, String builder, Split.
+Anonymous types, Extension methods, Lambda expressions, Partial methods.
+Expression trees, Dynamic, Named and optional arguments, Asynchronous methods.
+Compiler-as-a-service, Await in catch/finally blocks, Binary Literals, Local Functions
+
+what is expression Tree
+ 
+ -----------Global Logics--------
+ how to implement DI with different ways.
+ interface, encapsulation
+ private constructor use
+ singleton pattern
+     Ans : 
+          Private Constructor-
+          It is the implementation of a singleton class pattern.
+          Use private constructor when class have only static members.
+          Using private constructor, prevents the creation of the instances of that class.
+          If a class contains only private constructor without parameter, then it prevents the automatic generation of default constructor.
+          If a class contains only private constructors and does not contain public constructor, then other classes are not allowed to create instances of that class except nested class.
+ 
+
+when it cleaned G2
+
+perhaps you already know G0,G1,G2 in reference of garbage collector 
+ When Generation 2 cleaned ?
+ 
+ if table does not have nay cluster and non cluster index what the table called ?   
+    Ans: Heap
+	
+	-how can we see the index created by non clustred index
+
+
+      Ans;sp_helpindex
+
+    -how can you  prove this primary key know physical  order of data in table?
+	Ans: by inserting  by inserting non sequential reocrds you can prove this
+
+ ---------------------------------
+ 
+ Linq
+ -----------
+    1. What is Linq what namespace used in for LINQ.
+    2. Can we use to apply LINQ in oracle database filter.
+    3. How can join in LINQ.
+    4. What is difference between sigleordefault and firstordefault
+    5. How can i update arrylist using LINQ.
+    6. How can delete the records using LINQ.
+    7. what is difference between any and all.
+ 
+ ----------------
+ 
+ 
+   SQL SERVER
+-----------------------
+        string reverse ,number reverse logic in c#
+        call function from stored procedure ,and call sp from another sp.
+        change male to females and females to male in sql
+          hint: use case,use dense rank
+        primary key, foreigen key
+        indexing deep knowloedge.
+        create trigger
+        cte and cursor
+        wothout using inheritance Can we implement the Dynamic polymorphim
+        scop_identity
+        @@idenity ,
+        temp table and gloable table
+        df btwen temp table and cte
+        order of query execution in sql
+        
+        
+        
+        what are the way  to increase sql query performance? 
+        
+         Please withe query replace M with F and F With M  In gender column Perhaps you know this question 
+        
+        
+        Rakesh, 12:25 PM
+         Form Which  base class interface inherited( i know normal class is inherited form object class which have 4 method )
+        
+        
+         
+         How to handle exception sql Server
+        
+         What is difference between having and  where  Clause  
+        
+         How  can  delete the  duplicate records from the table 
+        
+        
+         in which statement  of cursor show current records 
+        
+         Can we use output parameter in function   in sql
+         
+          by an way we can update the records  by using function
+          
+          How can we get the records   the records   those are not present in another table 
+        
+         what is use in STUFF Fuction 
+         What are the Privilage function in sql
+         How use the transaction in sql
+        --------
+         Today'sask 
+        1. what is important of include operator in sql 
+        2. what is magic table 
+        3. how to get dulicate records lsit from table 
+        4. what is scope table varaible 
+        5 what s differemt between clsuter and not cluster index.
+        6. when we apply unique key Clueseter Index is created or not.
+        7. Can we apply Indentity column feature without making primary keyCreate task
+        ----
+        
+        
+       - what is use of NLOCK in Sql
+		
+       - Df btwen between Row_Number	Partition	rank	Denserank
+	   
+       Ans: Customer Name 	Row_Number	Partition	rank	Denserank
+                   A	1	              1	           1	1
+                   A	2	              2	           1	1
+                   A	3	              3	           1	1
+                   B	4	              1	           4	2
+                   B	5	              2	           4	2
+                   C	6	              1	           6	3
+                   C	7	              2	           6	3
+                   C	8	              3	           6	3
+                   D	9	              1	           9	4
+
+				   
+				   
+				   -what is lock  in sql
+				   -stuff is use for replacing the string character from a string 
+				   -can we make join between function returning table and normal table.  
+				   -can we create the unique with  cluster index
+				   -unique always come non cluster index default this statement is right ?
+			        
+					  -what  is use of lock?
+                      -how can assign default value  for column?  
+                      -if using complex view can we update base table from the view? 
+                      -when  a  table have only  non cluster index  and you know non cluster does not have any data in leaf node and its point to cluster index leaf node and if table have not cluster index do how you get the data 
+				   
+				   
+				  - what is use of IN Sql 
+				   -what is use of between 
+
+                    -what is use of is null
+					
+					-why truncate is faster than delete
+					-how to restrict some mehthod to some users only.
+					-how to restrict accept type for input in webapi and output type 
+					-how using works and how execption is handle in using.
+					difference between scope_identity and @@identity in sql
+					
+					
+					1  Can we create primary key without using cluster index.
+                    2. Can we apply cluster index on table with using primary key 
+                    3. How many primary key we made in table 
+                    4  How  many cluster index can made in table 
+                    5. What is called table if table does not have index.
+                    6.  if we are inserting records in two table(A & B)  A have the indexes and another does not have. in which table insertion will faster A or B.
+				   
+-----------------------------  
+
+
+ Experience Required: 6+ years
+ ------------------------------
+
+    C#, .NET 4.0/4.5, ASP.NET MVC, ASP.NET web form, window form and Web API, Entity Framework and ADO.net, SQL Server '16/17 stored procedures; functions. angular JS 4/5, Jquery, AJAX, JSON, HTML 5 & OOPS, good in unit testing.
+
+Mandatory:
+
+C# & OOPS
+ASP.NET MVC   
+Javascript / JQuery
+SQL Server
+Entity Framework
+ 
+what is dynamic dispatch?
+
+
+
+C# and OOPS
+-------------
+
+Inheritance, Abstraction, Encapsulation, Virtual, Interface vs Abstract, Explicit Implementation, Parent / Child, Overriding.
+Generics, Exception handling, Serialization, GC, Collection vs Array, Dictionary vs List, Enumerable, Late binding / Early binding, Threads, Memory management.
+Reference/Value, Constant/Static, Read only, String, String builder, Split.
+Anonymous types, Extension methods, Lambda expressions, Partial methods.
+Expression trees, Dynamic, Named and optional arguments, Asynchronous methods.
+Compiler-as-a-service, Await in catch/finally blocks, Binary Literals, Local Functions
+ 
+
+Ado.Net
+-------
+
+SqlConnection, SqlCommand, SqlDataReader, DataAdapter.
+SqlTransaction
+ 
+
+Asp.Net Web Forms
+--------------
+
+Asp.Net Data Controls, Navigation , Master Pages, Login controls, Themes, Skins
+ListView, DataPager, DataSource, Web parts, Personalization
+Routing, OWIN,  Async task
+ 
+
+Asp.net MVC
+------------
+
+MVC architecture, Routing, HTML Helpers, Ajax Helpers, Actions, State management
+Partial Views, Layouts, Asynchronous controller, Data Annotations, Validations, Custom template, Scaffolding
+View engine, Global filters,  Bundling and minification, Enabling Logins from Facebook and Other Sites Using Oauth, XSS, Anti-Forgery token
+Authentication filters, Bootstrap, ASP.Net Identity, Attribute based routing, Authentication Filters
+ 
+
+Javascript & Jquery
+---------------------
+
+Jquery Server calls
+Jquery plugins - grid, popups
+ 
+
+ Asp.net Web service
+ ------------------
+
+Creating and consume web service
+Authentication (SOAP Header), SOAP Exception, Validation, Hosting service
+Asp.net Web Api
+
+Basic Knowledge about Web Api
+Attribute Routing, CORS - Cross Origin Resource Sharing, OWIN (Open Web Interface for .NET
